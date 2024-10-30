@@ -1,0 +1,31 @@
+/* relevant for the tutorial - start */
+  .gallery { position: relative; }
+  #pictures { position: relative; height: 408px; }
+  #pictures img { position: absolute; top: 0; left: 0; width:100%; height:100%; }
+  
+  .prev {text-align: center; font-size: 0; float: right; position: absolute;  left: 13px; z-index: 9999;top:48%;}
+  .next {text-align: center; font-size: 0; float: right; position: absolute;  right: 13px; z-index: 9999;top:48%;}
+    
+  /* relevant for the tutorial - end */
+  
+  .next > a {
+      background: url("../images/next.png");
+      display: block;
+      height: 30px;
+      width: 30px;
+      opacity:0.2;
+  }
+
+  .prev > a {
+      background: url("../images/prev.png");
+      display: block;
+      height: 30px;
+      width: 30px;
+      opacity:0.2;
+  }
+  .hs-slider-hint {
+      border: 1px solid;
+      line-height: 24px;
+      padding: 20px;
+      width: 56%;
+  }
